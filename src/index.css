@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "swiper/swiper-bundle.min.css";
+
+@import "~video.js/dist/video-js.css";
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/MagicEnglish.ttf') format('truetype');
+    font-weight: 400;
+    
+  }
+
+  /* styles.css or your main CSS file */
+.truncate-2-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.nav{
+    background: #0000006a;
+}
+.nav2{
+    background: #000000c9;
+    
+
+}
+body{
+    background: #18181b;
+}
+/* Swiper pagination bullets default styles */
+.swiper-pagination-bullet {
+    background-color: #ccc; /* Default bullet color */
+  }
+
+  
+  /* Active pagination bullet color */
+  .swiper-pagination-bullet-active {
+    background-color: #d7a4e8; /* Active bullet color */
+  }
+  
+  /* Optional: Customize pagination bullet size */
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+  }
